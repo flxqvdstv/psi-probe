@@ -78,6 +78,7 @@
 		<property name="adapterClasses">
 			<list>
 				<value>psiprobe.Tomcat90ContainerAdapter</value>
+				<value>psiprobe.Tomcat85ContainerAdapter</value>
 				<value>psiprobe.Tomcat80ContainerAdapter</value>
 				<value>psiprobe.Tomcat70ContainerAdapter</value>
 			</list>
