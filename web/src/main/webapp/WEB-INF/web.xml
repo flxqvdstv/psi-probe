@@ -150,6 +150,9 @@
 			<role-name>manager-gui</role-name>
 			<role-name>poweruserplus</role-name>
 		</auth-constraint>
+		<user-data-constraint>
+			<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
 	</security-constraint>
 
 	<!-- Defines the Login Configuration for this Application -->
